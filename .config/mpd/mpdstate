@@ -1,0 +1,28 @@
+sw_volume: 60
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 2
+time: 88.720000
+random: 1
+repeat: 0
+single: 0
+consume: 1
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:The Allman Brothers Band - The Essential Collection [smb]/02 Jessica.mp3
+1:The Allman Brothers Band - The Essential Collection [smb]/03 Statesboro Blues.mp3
+2:The Allman Brothers Band - The Essential Collection [smb]/04 Whipping Post.mp3
+3:The Allman Brothers Band - The Essential Collection [smb]/05 Dreams.mp3
+4:The Allman Brothers Band - The Essential Collection [smb]/06 Ain't Wastin Time No More.mp3
+5:The Allman Brothers Band - The Essential Collection [smb]/07 Melissa.mp3
+6:The Allman Brothers Band - The Essential Collection [smb]/08 Black Hearted Woman.mp3
+7:The Allman Brothers Band - The Essential Collection [smb]/10 Midnight Rider.mp3
+8:The Allman Brothers Band - The Essential Collection [smb]/11 One Way Out.mp3
+9:The Allman Brothers Band - The Essential Collection [smb]/12 Blue Sky.mp3
+10:The Allman Brothers Band - The Essential Collection [smb]/13 Stormy Monday.mp3
+11:The Allman Brothers Band - The Essential Collection [smb]/14 Pegasus.mp3
+12:The Allman Brothers Band - The Essential Collection [smb]/15 Win Lose Or Draw.mp3
+playlist_end
