@@ -1,0 +1,50 @@
+  
+EDITOR="nvim"
+
+clear
+
+box() {
+        title="| $1 |"
+        edge=$(echo "$title" | sed 's/./#/g')
+        echo "$edge"
+        echo "$title"
+        echo "$edge"
+}
+
+box "Choose a Config File"
+
+  echo ""
+  echo "  1) alacritty"
+  echo "  2) bash"
+  echo '  3) bspwm'
+  echo "  4) i3"
+  echo "  5) i3blocks"
+  echo "  6) kitty"
+  echo "  7) nvim"
+  echo "  8) picom"
+  echo "  9) polybar"
+  echo " 10) qtile"
+  echo " 11) rofi"
+  echo " 12) sxhkd"
+  echo ""
+  echo " 13) Quit"
+  echo -e "\n"
+  read -p "Please enter your choice: " choice
+  case $choice in
+    1 ) nvim $HOME/.config/alacritty/alacritty.yml ;;
+    2 ) nvim $HOME/.bashrc ;;
+    3 ) nvim $HOME/.config/bspwm/bspwmrc ;;
+    4 ) nvim $HOME/.config/i3/config ;;
+    5 ) nvim $HOME/.config/i3blocks/i3blocks.conf ;;
+    6 ) nvim $HOME/.config/kitty/kitty.conf ;;
+    7 ) nvim $HOME/.config/nvim/init.vim ;;
+    8 ) nvim $HOME/.config/picom/picom.conf ;;
+    9 ) nvim $HOME/.config/polybar/config.ini ;;
+   10 ) nvim $HOME/.config/qtile/config.py ;;
+   11 ) nvim $HOME/.config/rofi/config.rasi ;;
+   12 ) nvim $HOME/.config/sxhkd/sxhkdrc ;;
+    
+   13) exit 1 ;;
+    * ) invalid ;;
+  esac
+
